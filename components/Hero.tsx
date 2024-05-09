@@ -1,16 +1,20 @@
 import React from 'react';
 import Navbar from '@/app/navbar/navbar';
 import Image from 'next/image';
-import hardware from "../public/hardware.png"
+import hardware from "../public/invest.jpeg"
+// import hardware from "../public/hardware.png"
 export default async function Hero() {
   return (
     <div className="relative  md:pt-0 ">
-      <Image
+     <div className='w-full h-full'>
+     <Image
+     className='h-screen w-screen'
       src={hardware}
       alt='hardware garage image'
       >
 
       </Image>
+     </div>
       <div className="absolute inset-0  bg-gradient-to-b from-transparent to-black/60 flex items-center justify-center">
 
         <div className="text-center text-white">

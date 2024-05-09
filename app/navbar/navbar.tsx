@@ -28,16 +28,16 @@ navbar() {
 
   const user = useUser((state) => state.user);
   return (
-    <div className=" z-10 md:bg-white/10   backdrop-blur-sm rounded-sm  shadow-sm w-full fixed ">
+    <div className=" z-10 md:bg-white/10  backdrop-blur-sm rounded-sm  shadow-sm w-full fixed ">
     <nav className="md:py-2 py-0">
       <div className=" w-full px-4 md:text-xl text-lg flex justify-between items-center">
         <div className="flex">
-          <Link className="flex md:text-2xl  text-sm text-[#c5aa6a]" href="/">
+          <Link className="flex md:text-2xl  text-sm text-white" href="/">
            Prospire
           </Link>
           <ul className="ml-10 flex md:mx-4 mx-2">
           <Link className="flex" href="/blogs">
-          <li className="md:mx-6  md:text-2xl  text-sm text-[#c5aa6a] mx-1">projects</li>
+          <li className="md:mx-6  md:text-2xl  text-sm text-white mx-1">projects</li>
 
           </Link>
           </ul>

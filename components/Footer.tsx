@@ -12,10 +12,9 @@ export default function Footer() {
 			<div className="max-w-7xl py-10 px-5 md:p-0 space-y-5  mx-auto flex justify-between md:items-end flex-col md:flex-row">
 				<div className="space-y-10">
 					<div className="space-y-2 w-full sm:w-96">
-						<h1 className="text-3xl font-bold">Hardware Garage</h1>
+						<h1 className="text-3xl font-bold">Prospire</h1>
 						<p className="">
-						get the knowledge of  mechatronics 	and robotics
-						</p>
+Investing made easy						</p>
 					</div>
 					<div className="flex items-center gap-2">
 						<GitHubLogoIcon className="w-5 h-5" />

@@ -11,7 +11,7 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: 'Hardware garage',
+  title: 'Prospire',
   description: 'The fastest way to learn hardware and mechatronics',
 }
 
@@ -36,7 +36,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <main className='w-full mx-4'>
+            <main className='w-full   mx-4'>
               <Analytics/>
               <SpeedInsights/>
             </main>

@@ -4,7 +4,6 @@ import Image from "next/image";
 import { readBlog } from "@/lib/actions/blog";
 import Navbar from "../../navbar/navbar";
 import Hero from "../../../components/Hero";
-
 export default async function Home() {
 	let { data: blogs } = await readBlog();
 
@@ -13,7 +12,7 @@ export default async function Home() {
 	}
 
 	return (
-		<div>
+		<div className="">
 			
 				<Navbar/>
 			<Hero/>
