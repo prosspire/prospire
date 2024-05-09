@@ -10,17 +10,17 @@ import { IAuthor } from "@/lib/types";
 import "react-quill/dist/quill.snow.css";
 import Footer from "@/components/Footer";
 
-export async function generateStaticParams() {
-  const { data: blogs, error } = await supabase
-    .from("blog")
-    .select("slug");
+// export async function generateStaticParams() {
+//   const { data: blogs, error } = await supabase
+//     .from("blog")
+//     .select("slug");
 
-  if (error) {
-    throw error;
-  }
+//   if (error) {
+//     throw error;
+//   }
 
-  return blogs?.map((blog) => ({ id: blog.slug }));
-}
+//   return blogs?.map((blog) => ({ id: blog.slug }));
+// }
 
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
